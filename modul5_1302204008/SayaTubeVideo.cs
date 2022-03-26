@@ -46,7 +46,6 @@ namespace modul5_1302204008
             {
                 Console.WriteLine(ex.Message);
             }
-            this.playCount = this.playCount + 1;
         }
         public void PrintVideoDetails()
         {
