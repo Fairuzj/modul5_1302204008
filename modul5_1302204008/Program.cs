@@ -34,6 +34,16 @@ namespace modul5_1302204008
             u1.addVideo(v10);
             u1.PrintVideoDetails();
 
+            Console.WriteLine("Test prekondisi dll");
+            SayaTubeUser u2 = new SayaTubeUser("Ruziruz");
+            SayaTubeVideo w1 = new SayaTubeVideo("");
+            SayaTubeVideo w2 = new SayaTubeVideo("cobaan 2");
+            w2.IncreasePlayCount(25000001);
+            SayaTubeVideo w3 = new SayaTubeVideo("cobaan 3");
+            u2.addVideo(w1);
+            u2.addVideo(w2);
+            u2.addVideo(w3);
+
         }
     }
 }
